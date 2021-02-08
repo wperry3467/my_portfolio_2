@@ -1,0 +1,83 @@
+@charset "utf-8";
+<style type="text/css">
+body {
+    background-color: coral;
+    color: #292828;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(header.jpg);
+}
+main {
+    width: 580px;
+    height: 1750px;
+    padding-left: 175px;
+    padding-right: 0px;
+}
+
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;
+    background-color: #41EBD3;
+}
+body {
+    background-image: url(bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container{
+	width:768px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+}
+body aside {
+    height: 1750px;
+    width: 150px;
+    float: left;
+    background-color: #787878;
+}
+main article h1 {
+    font-size: xx-large;
+    color: #1FD9BF;
+}
+img {
+    float: right;
+}
+.float {
+}
+ol {
+    float: left;
+}
+#container nav {
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+#container nav li   {
+    display: block;
+    float: left;
+    margin-right: 40px;
+    font-size: x-large;
+}
+ul {
+    margin: auto;
+    width: auto;
+    padding-left: 200px;
+}
+.submit_btn {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #2DE1DE;
+    color: #FFFFFF;
+    font-size: large;
+    -webkit-box-shadow: 6px 6px 35px #000000;
+    box-shadow: 6px 6px 35px #000000;
+}
